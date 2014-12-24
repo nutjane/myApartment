@@ -32,13 +32,13 @@
         <form action="login_check.php" method="post">
         <table width="100%">
             <tr>
-                <td><h2>USERNAME</h2></td>
-                <td><input type="text" id="user78" name="user78" class="inputs" style="font-size:24px;" required></td>
+                <td width="13%"><h2>USERNAME55</h2></td>
+                <td width="30%"><input type="text" id="user78" name="user78" class="inputs" style="font-size:24px;" required></td>
             
-                <td><h2>PASSWORD</h2></td>
-                <td><input type="text" id="pass98" name="pass98" class="inputs" style="font-size:24px;" required></td>
-            	<td><input type="submit" class="button green" value="LOGIN" style="font-size:17px;"></td>
-                <td><input name="Reset" type="reset" class="button yellow" value="CLEAR" style="font-size:17px;">   </td>
+                <td width="13%"><h2>PASSWORD</h2></td>
+                <td width="31%"><input type="text" id="pass98" name="pass98" class="inputs" style="font-size:24px;" required></td>
+            	<td width="6%"><input type="submit" class="button green" value="LOGIN" style="font-size:17px;"></td>
+                <td width="7%"><input name="Reset" type="reset" class="button yellow" value="CLEAR" style="font-size:17px;">   </td>
             </tr>
         </table>
         </form>
