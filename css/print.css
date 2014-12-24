@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.no-print { display: none; }
+
+table{
+	width:100%; 
+	border-collapse: collapse; 
+	border: 1px solid black; 
+	padding:10px;
+}
+table.printnoborder{
+	width:100%; 
+	border-collapse: collapse; 
+	border: 0px solid black; 
+	padding:10px;
+}
+
+
+
+td{
+	padding: 0 0 0 5px;
+}
+
+.pagebreak {page-break-before: always;}
+
+body{
+	font-size: 12px;
+}
+

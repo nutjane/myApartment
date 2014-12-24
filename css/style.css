@@ -1,0 +1,396 @@
+body { 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	font-size: 100%; 
+	font: inherit; 
+	vertical-align: baseline;
+	line-height: 1;
+}
+ol, ul {list-style: none;}
+strong {font-weight: bold;}
+em {font-style: italic;}
+
+/*FONT*/
+
+
+body {
+	background: #42a2ce;
+	font-size: 14px;
+	color:#333;
+	font-family: Helvetica, 'Arial', sans-serif;
+	height: auto;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+p {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+/* box*/
+.box { 
+	margin: 0 0 10px!important; 
+	padding: 10px;
+	background: #fff; 
+	border: 4px solid #fff; 
+	position: relative; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	-o-border-radius: 4px; 
+	border-radius: 4px; 
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+	-o-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+	box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+}
+
+.button {
+  display: inline-block;
+  margin: 0;
+  padding: .461em 1.563em .41em;
+  color: #fff!important;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: .9em;
+  cursor: pointer;
+  font-family: "proxima-nova", sans-serif;
+  border: 1px solid #1a4064;
+  background: #255a8c;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1), inset 0 0 1px 1px rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1), inset 0 0 1px 1px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1), inset 0 0 1px 1px rgba(255, 255, 255, 0.15);
+}
+.button:active  {
+  -webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1), inset 0 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1), inset 0 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1), inset 0 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.button.green  {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  border: 1px solid #578824;
+  background: #71b02f;
+}
+.button.green:hover  {
+  background: #79bc32;
+}
+.button.yellow  {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  border: 1px solid #B59412;
+  background: #E9C227;
+}
+.button.yellow:hover  {
+  background: #DFB613;
+}
+
+.button.red  {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+  border: 1px solid #7F1019;
+  background: #D91929;
+}
+.button.red:hover  {
+  background: #B0121F;
+}
+
+
+
+
+
+#datetime{
+	text-align:right;
+	margin-left:auto; margin-right:20px;
+	margin-bottom:5px;
+	color:#a8d4e9;
+	right:0;
+}
+
+hr.style1{
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+table.hometable {
+	width:100%;
+}
+table.hometable td {
+	padding:0px;
+}
+
+table.simple{
+	width:100%;
+	margin: 5px;
+	color:#333;
+}
+
+table.simple td{
+	font-size:17px;
+	padding: 5px;
+}
+
+table.simple th{
+	font-size:18px;
+	text-align:left;
+}
+
+table.simple .roomNumber{
+	font-size:55px;
+}
+
+
+table.hover tr:not(:first-child):hover{
+	background-color:#93FFAE;
+}
+.boxroom{
+	height:70px;
+	padding:10px;
+	margin:10px;
+	float:left; 
+	text-align:center;
+}
+.boxroom:hover{
+	cursor: help;	
+}
+
+.center{
+	margin: 0 auto;	
+}
+span.highlight {
+    background-color: #4D4D4D;
+	color:white;
+	letter-spacing:2px;
+}
+table.print2{
+	border-collapse: collapse;
+
+}
+table.print2 td{
+	padding:7px;
+
+}
+table.print{
+	width:80%; 
+	border-collapse: collapse; 
+	border: 1px dotted black; 
+	padding:10px;
+}
+
+table.overall{
+	width:100%; 
+	border-collapse: collapse; 
+	border: 2px dotted black; 
+	padding:10px;
+}
+
+.searchbox{
+	border: 1px dotted #666;
+    border-radius: 25px;
+	padding:15px;
+	margin-bottom:15px;
+	/*width:50%;*/
+	text-align:center;
+}
+
+table.data-center td{
+	text-align:center;
+}
+
+/*FORMS*/
+ .inputs {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 0 #FFF, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -moz-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -ms-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -o-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    box-shadow: 0 1px 0 #FFF, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background: #EAE7E7;
+    border: 1px solid #C8C8C8;
+    color: #777;
+    font: 17px Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 10px;
+	
+}
+
+.inputs:focus {
+    -webkit-box-shadow: 0 0 2px #ED1C24 inset;
+    -moz-box-shadow: 0 0 2px #ed1c24 inset;
+    -ms-box-shadow: 0 0 2px #ed1c24 inset;
+    -o-box-shadow: 0 0 2px #ed1c24 inset;
+    box-shadow: 0 0 2px #ED1C24 inset;
+    background-color: #FFF;
+    border: 1px solid #ED1C24;
+    outline: none;
+} 
+.require{
+	color:red;
+	font-weight:bold;
+	
+}
+
+
+/* Layout
+***********************/
+#container {padding: 60px 40px 100px;}
+#header {width: 300px; float: left;}
+#main {margin-left: 300px; margin-top: 25px;overflow: hidden;}
+
+/* Header
+***********************/
+#header .logo  { display: block; margin: 10px 0 30px; }
+#header h1 { font-family: Geogrotesque-Semibold, Helvetica, Arial, sans-serif; margin: 0 0 10px; text-shadow: 0 1px 0 #2F4C63; color: #fff; font-size: 42px; }
+#header h2 { margin: 0 0 30px; font: normal 20px Geogrotesque-regular, Helvetica, Arial, sans-serif; text-shadow: 0 1px 1px #555; color: #fff; }
+#header .button { margin: 0 0 50px; padding: 10px 15px 10px 15px; position: relative; }
+
+h3.nav-header { width: 200px; margin: 0 0 10px; padding: 0 0 3px; font-size: 18px; text-shadow: 0 1px 1px #555; color: #fff; font-family: Geogrotesque-Regular, Helvetica, Arial, sans-serif; border-bottom: 1px solid #fff; border-bottom: 1px solid rgba(255,255,255,0.5);
+text-shadow: 0 1px 0 #2F4C63; }
+#nav li {margin: 0 0 7px; font-size: 15px; }
+#nav li a:hover,
+#nav li.active a  {border-bottom: 1px dotted #fff; border-bottom: 1px dotted rgba(255,255,255,0.3); background: none;}
+#nav li.active a  { cursor: default; }
+#nav2 {
+	color:white;
+	margin-bottom: 20px;
+	line-height: 1.5;
+
+}
+.clear{
+	clear:both;
+}
+
+/*Tooltips
+******************************************************************/
+/* Base styles for the element that has a tooltip */
+[data-tooltip],
+.tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Base styles for the entire tooltip */
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+  position: absolute;
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: 
+	  opacity 0.2s ease-in-out,
+		visibility 0.2s ease-in-out,
+		-webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+	-moz-transition:    
+		opacity 0.2s ease-in-out,
+		visibility 0.2s ease-in-out,
+		-moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+	transition:         
+		opacity 0.2s ease-in-out,
+		visibility 0.2s ease-in-out,
+		transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform:    translate3d(0, 0, 0);
+  transform:         translate3d(0, 0, 0);
+  pointer-events: none;
+}
+
+/* Show the entire tooltip on hover and focus */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* Base styles for the tooltip's directional arrow */
+.tooltip:before,
+[data-tooltip]:before {
+  z-index: 1001;
+  border: 6px solid transparent;
+  background: transparent;
+  content: "";
+}
+
+/* Base styles for the tooltip's content area */
+.tooltip:after,
+[data-tooltip]:after {
+  z-index: 1000;
+  padding: 8px;
+  width: 160px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Directions */
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after,
+.tooltip-top:before,
+.tooltip-top:after {
+  bottom: 100%;
+  left: 50%;
+}
+
+[data-tooltip]:before,
+.tooltip:before,
+.tooltip-top:before {
+  margin-left: -6px;
+  margin-bottom: -12px;
+  border-top-color: #000;
+  border-top-color: hsla(0, 0%, 20%, 0.9);
+}
+
+/* Horizontally align top/bottom tooltips */
+[data-tooltip]:after,
+.tooltip:after,
+.tooltip-top:after {
+  margin-left: -80px;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after,
+.tooltip-top:hover:before,
+.tooltip-top:hover:after,
+.tooltip-top:focus:before,
+.tooltip-top:focus:after {
+  -webkit-transform: translateY(-12px);
+  -moz-transform:    translateY(-12px);
+  transform:         translateY(-12px); 
+}
